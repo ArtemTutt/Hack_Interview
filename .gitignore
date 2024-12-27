@@ -1,0 +1,83 @@
+# Byte-compiled / оптимизированные / временные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Конфигурационные файлы для IDE и редакторов
+*.swp
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Логи, базы данных, настройки
+*.log
+*.sqlite3
+*.db
+*.bak
+
+# Кэш пакетов
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Тестовые отладочные файлы
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Рабочие каталоги (например, для Sphinx)
+build/
+dist/
+temp/
+docs/_build/
+
+# Созданное с помощью setup.py
+*.egg
+*.egg-info/
+dist/
+eggs/
+parts/
+var/
+wheels/
+share/python-wheels/
+
+# PyInstaller
+# После сборки создаются:
+*.manifest
+*.spec
+
+# Windows/Unix системные файлы
+Thumbs.db
+.DS_Store
+
+# Для локального окружения и токенов
+.envrc
+*.env
+*.secret
+
+# Celery файлы
+celerybeat-schedule
+celerybeat.pid
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.sock
+
+# Pyre type-checker
+.pyre/
+
+# другие специфичные файлы/папки, если они присутствуют в проекте
