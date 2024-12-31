@@ -18,7 +18,7 @@ OUTPUT_FILENAME = "output.wav"
 
 # OpenAI client initialization
 openai = OpenAI(
-    api_key="RmuQxcWMGz7rbIWYurA6SrRZzfBR4dal",
+    api_key="",
     base_url="https://api.deepinfra.com/v1/openai",
 )
 
